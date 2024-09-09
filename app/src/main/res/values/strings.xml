@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">N-Queens Game</string>
+    <string name="game_rules">How to play: \n \nYou have to place N queens on a N×N chessboard so that no two queens attack each other i.e. no two queens share the same row, column, or same region</string>
+    <string name="default_board_size">16</string>
+</resources>
