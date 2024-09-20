@@ -286,8 +286,15 @@ public class LoadGame {
             {7, 6, 7, 5, 9, 9, 9, 9, 5},
             {7, 7, 7, 5, 5, 5, 5, 5, 5}};
     static int[][] board27 = new int[][]{
-
-    };
+            {0, 0, 0, 0, 0, 1, 3, 3, 3},
+            {0, 0, 0, 2, 1, 1, 1, 3, 3},
+            {0, 0, 2, 2, 2, 1, 7, 3, 3},
+            {0, 0, 0, 2, 5, 7, 7, 7, 3},
+            {0, 0, 4, 5, 5, 5, 7, 9, 3},
+            {0, 4, 4, 4, 5, 6, 9, 9, 9},
+            {0, 0, 4, 0, 6, 6, 6, 9, 0},
+            {0, 0, 0, 0, 0, 6, 0, 0, 0},
+            {0, 0, 0, 0, 0, 0, 0, 0, 0}};
 
     public static int[][] getBoard() {
         return getRandomArray();
@@ -321,7 +328,7 @@ public class LoadGame {
         allArrays.add(board24);
         allArrays.add(board25);
         allArrays.add(board26);
-        //allArrays.add(board27);
+        allArrays.add(board27);
 
         Random rand = new Random();
         int randomIndex = rand.nextInt(allArrays.size());
