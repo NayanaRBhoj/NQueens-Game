@@ -58,7 +58,7 @@ public class MainActivity2 extends AppCompatActivity {
         recyclerView.setLayoutManager(gridLayoutManager);
 
         // Initialize the adapter and set it to RecyclerView
-        adapter = new MyAdapter(dataList, n, screenWidth, colorPalette);
+        adapter = new MyAdapter(this, dataList, n, screenWidth, colorPalette,1);
         recyclerView.setAdapter(adapter);
     }
 }
