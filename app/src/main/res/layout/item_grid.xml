@@ -73,6 +73,6 @@
         app:layout_constraintBottom_toTopOf="@id/bottomBorder"
         app:layout_constraintStart_toEndOf="@id/leftBorder"
         app:layout_constraintEnd_toStartOf="@id/rightBorder"
-        android:background="#FFFFFF" /> <!-- Placeholder for grid item background -->
+        android:background="@color/colorPrimaryDark" /> <!-- Placeholder for grid item background -->
 
 </androidx.constraintlayout.widget.ConstraintLayout>

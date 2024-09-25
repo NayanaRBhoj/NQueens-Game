@@ -80,7 +80,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.ViewHolder> {
         });
 
         //if ((row == 0 && col == 0) || (row == n-1 && col == n-1)){
-        if (row == 0 || col == 0){
+        if (row == 0 && col == 0){
             holder.topBorder.setVisibility(View.VISIBLE);
             holder.bottomBorder.setVisibility(View.VISIBLE);
             holder.leftBorder.setVisibility(View.VISIBLE);
